@@ -300,3 +300,166 @@ footer{
 		padding: 2px 3.333333333333333;
 	}
 }
+@media screen and (max-width: 999px) {
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.centro { 
+		width: 100%;
+	}
+	header {
+		border-bottom: none;
+		height: auto;
+		text-align: center;
+	}
+	header {
+	border-bottom: none;
+	height: auto;
+	text-align: center;
+	}
+	header h1 a {
+		background-position: 50%;
+		display: inherity;
+		height: 126px; 
+		width:100%;
+	}
+	nav {
+		clear: both;
+	}
+	nav li a {
+		height: 40px;
+		margin: 0 auto;
+		padding-top: 3px;
+		text-align: center;
+		text-shadow: none;
+		width: 10%;
+	}
+	nav li a:link {
+		color: #ffffff;
+		font-size: 1.388em;
+	}
+	nav li a.ativo:link, nav li a:hover, nav li a:visited {
+		background-color: #745f9a;
+		color: #ffffff;
+		text-decoration: none;		
+	}
+	nav li a.ativo:hover, nav li a.ativo:visited {
+		background-color: #9c8cb9;
+	}
+	.chamada {
+		height: 145px;
+		margin-top: 10px;
+	}
+	h2 {
+		font-size: 1.444em;
+		letter-spacing: -0,0769em;
+		margin-bottom: 15px;
+	}
+	.chamada h3 {
+		font-size: 0.778em;
+	}
+	.meio {
+		background-color: #8a2be2;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.meio .desktop, .meio .tablet, .meio .mobile {
+		float: none;
+		height: 160px;
+		width: 100%;
+	}
+	.meio .desktop figure, .meio .tablet figure, .meio .mobile figure{
+		float: left;
+		height: 160px;
+		margin:0;
+		padding: 0;
+		width: 53.125%
+	}
+	.meio h3{
+		float: left;
+		margin-top: 40px;
+		width: 46.875%
+	}
+	.meio .desktop figure img, .meio .tablet figure img, .meio .mobile figure img{
+		height: 125px;
+		margin-top: 15px;
+		width: 86.274%;
+	}
+	.meio p{
+		display: none;
+	}
+	.copyleft, .desenvolvedor{
+		float: none;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+	.desenvolvedor figure{
+		width: inherit;
+	}
+}
+@media screen and (max-width:319px){
+	/* cores baixa resolução*/ 
+	h2, a, a:link, a:visited{
+		color:#79e1d5;
+	}
+	a:hover{
+		color:#2fd0bc;
+	}
+	header{
+		border-bottom:none;
+		height:auto;
+		text-align:center;
+	}
+	header h1 a{
+		background:url(../img/logo-criar-site-responsivo-menor.png) no-repeat;
+		background-position: 50%;
+		display:inherit;
+		height:90px;
+		width:100%
+	}
+	nav li{
+		background-color:#79e1d5;
+	}
+	nav li a.ativo:link, nav li a:hover, nav li a:visited{
+		background-color:#2fd0bc;
+		color:#fff;
+	}
+	nav li a.ativo:hover, nav li a.ativo:visited{
+		background-color:#2fd0bc;
+	}
+	/* diminuir frase de chamada */
+	.chamada{
+		height:140px;
+		margin-top:10px;
+		width:95%
+	}
+	h2{
+		font-size:1.1111111111em;
+		margin-bottom:15px;
+	}
+	.chamada h3{
+		font-size:0.777777778em;
+	}
+	/* meio retirar texto e aumentar a foto */
+	.meio .desktop, .meio .tablet, .meio .mobile{
+		float:none;
+		height:160px;
+		width:100%;
+	}
+	.meio .desktop figure, .meio .tablet figure, .meio .mobile figure{
+		float:left;
+		width:100%;
+	}
+	.meio h3{
+		display:none;
+	}
+	.meio p{
+		display: none;
+	}
+	.copyleft{
+		font-size: 0.91em;
+	}
+}
